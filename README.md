@@ -46,8 +46,6 @@
 ### 🌐 [TOEIC Master](https://github.com/YuHsunWang/toeic-master) · **[Live →](https://toeic-master-murex.vercel.app)**
 自己需要考 TOEIC 就自己刻一個練習 App。JavaScript 開發，部署在 Vercel。
 
-### 📖 [AI Vocabulary Book](https://github.com/YuHsunWang/vocabulary)
-AI 輔助單字學習工具，結合 AI 生成例句讓背單字更有效率。
 
 ---
 
