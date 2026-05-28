@@ -5,6 +5,16 @@
 
 ---
 
+## 🧠 Knowledge Base & AI Workflow
+
+我最近開始固定使用 Hermes Agent，搭配 Claude Code、Codex 與其他 AI 工具，協助整理日常的研究、筆記與程式開發流程。  
+目前重點放在個人知識庫、研究紀錄、程式專案，以及公開頁面的系統化維護。
+
+- 📚 Knowledge Base / GitHub Pages: [yuhsunwang.github.io/knowledge-base-pages](https://yuhsunwang.github.io/knowledge-base-pages/)
+- 🤖 Workflow: Hermes Agent + Claude Code + Codex + Obsidian + MkDocs
+
+---
+
 ## 🛠 Tech Stack
 
 **分析 & 建模**
