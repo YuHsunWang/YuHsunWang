@@ -1,14 +1,15 @@
 # Hi, I'm Shane 👋
 
-台大經濟所出身，現在在全家便利商店做資料分析。  
-喜歡用數據解決實際的商業問題，從計量模型到機器學習都有在玩。
+台大經濟所出身，目前於全家便利商店從事資料分析工作。  
+專注於把零售場景的商業問題拆解成可量化的分析：從資料清理、計量模型到機器學習，找出能支撐決策的洞察。  
+習慣以經濟學的因果思考為底，搭配工程化的分析流程與 AI 工具，讓研究與產出更有系統。
 
 ---
 
 ## 🧠 Knowledge Base & AI Workflow
 
-我最近開始固定使用 Hermes Agent，搭配 Claude Code、Codex 與其他 AI 工具，協助整理日常的研究、筆記與程式開發流程。  
-目前重點放在個人知識庫、研究紀錄、程式專案，以及公開頁面的系統化維護。
+我把日常的研究、筆記與程式開發整合成一套個人知識工作流：以 Obsidian 累積筆記與研究紀錄，用 MkDocs 把整理過的內容發佈成公開知識庫，再讓 Hermes Agent 搭配 Claude Code、Codex 等 AI 工具協助檢索、改寫與維護。  
+目標是讓「學到的東西」可被結構化沉澱、持續更新，而不是散落各處。
 
 - 📚 Knowledge Base / GitHub Pages: [yuhsunwang.github.io/knowledge-base-pages](https://yuhsunwang.github.io/knowledge-base-pages/)
 - 🤖 Workflow: Hermes Agent + Claude Code + Codex + Obsidian + MkDocs
@@ -42,19 +43,19 @@
 ## 🗂 Projects
 
 ### 🏪 [FamilyMart Data Analysis](https://github.com/YuHsunWang/Family_mart)
-便利商店銷售資料分析。從資料清洗、EDA 到業務洞察視覺化，探索零售交易數據背後的消費模式。
+零售銷售資料分析，從資料清洗、EDA 到洞察視覺化的完整流程，聚焦交易數據背後的消費模式與商業意涵。
 
 ### 🤖 [ML 100 Days](https://github.com/YuHsunWang/ML100day)
-機器學習從零開始的百日紀錄。資料前處理 → 特徵工程 → 各種模型實作，累積扎實的 ML 基礎。
+機器學習百日練習紀錄，依「資料前處理 → 特徵工程 → 模型實作」逐步推進，建立可重用的分析習慣與 ML 基礎。
 
 ### 📈 [Financial Engineering](https://github.com/YuHsunWang/Financial_Engineering)
-金融工程實作筆記。Black-Scholes 定價、Monte Carlo 模擬、風險指標計算，以 Python 重現課本理論。
+金融工程實作筆記，以 Python 重現 Black-Scholes 定價、Monte Carlo 模擬與風險指標計算，串起理論與程式實作。
 
 ### 📊 [Data Science & ML Bootcamp](https://github.com/YuHsunWang/Refactored_Py_DS_ML_Bootcamp-master)
-用真實資料集做完整的資料科學專案練習，涵蓋迴歸、分類、NLP、神經網路等主題。
+以真實資料集進行端到端的資料科學練習，涵蓋迴歸、分類、NLP 與神經網路等主題。
 
 ### 🌐 [TOEIC Master](https://github.com/YuHsunWang/toeic-master) · **[Live →](https://toeic-master-murex.vercel.app)**
-自己需要考 TOEIC 就自己刻一個練習 App。JavaScript 開發，部署在 Vercel。
+為自己的 TOEIC 準備需求打造的練習 App，以 JavaScript 開發並部署於 Vercel，從需求到上線一手完成。
 
 
 ---
