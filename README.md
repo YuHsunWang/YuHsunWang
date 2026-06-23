@@ -1,22 +1,21 @@
-# Hi, I'm Shane 👋
+# Hi, I'm Shane
 
-台大經濟所出身，目前於全家便利商店從事資料分析工作。  
-專注於把零售場景的商業問題拆解成可量化的分析：從資料清理、計量模型到機器學習，找出能支撐決策的洞察。  
-習慣以經濟學的因果思考為底，搭配工程化的分析流程與 AI 工具，讓研究與產出更有系統。
-
----
-
-## 🧠 Knowledge Base & AI Workflow
-
-我把日常的研究、筆記與程式開發整合成一套個人知識工作流：以 Obsidian 累積筆記與研究紀錄，用 MkDocs 把整理過的內容發佈成公開知識庫，再讓 Hermes Agent 搭配 Claude Code、Codex 等 AI 工具協助檢索、改寫與維護。  
-目標是讓「學到的東西」可被結構化沉澱、持續更新，而不是散落各處。
-
-- 📚 Knowledge Base / GitHub Pages: [yuhsunwang.github.io/knowledge-base-pages](https://yuhsunwang.github.io/knowledge-base-pages/)
-- 🤖 Workflow: Hermes Agent + Claude Code + Codex + Obsidian + MkDocs
+台大經濟所畢業，現在在全家便利商店做資料分析；工作之外也做台股量化研究，跟一些資料／AI 的 side project。
+工作上主要把零售的商業問題變成可量化的分析；研究上在玩因子模型、事件研究、投組與回測這些。底子是經濟學的因果思考，習慣配上工程化流程跟 AI 工具一起做。
 
 ---
 
-## 🛠 Tech Stack
+## Knowledge Base & AI Workflow
+
+我把研究、筆記跟寫程式湊成一套自己的流程：筆記丟 Obsidian，整理好的用 MkDocs 發成公開知識庫，再讓 Hermes Agent 接 Claude Code、Codex 幫忙檢索、改寫跟維護；研究專案用 beads 管理任務與記憶。
+重點是讓學過的東西留得住、會持續更新，不會學完就散掉。
+
+- Knowledge Base / GitHub Pages: [yuhsunwang.github.io/knowledge-base-pages](https://yuhsunwang.github.io/knowledge-base-pages/)
+- Workflow: Claude Code + Codex + Hermes + beads + Obsidian + MkDocs
+
+---
+
+## Tech Stack
 
 **分析 & 建模**
 
@@ -24,6 +23,8 @@
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![statsmodels](https://img.shields.io/badge/statsmodels-8CAAE6?style=flat)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
 
 **視覺化 & BI**
 
@@ -35,32 +36,25 @@
 **資料庫 & 工具**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 ---
 
-## 🗂 Projects
+## Projects
 
-### 🏪 [FamilyMart Data Analysis](https://github.com/YuHsunWang/Family_mart)
-零售銷售資料分析，從資料清洗、EDA 到洞察視覺化的完整流程，聚焦交易數據背後的消費模式與商業意涵。
+### [Trading Strategy](https://github.com/YuHsunWang/trading_strategy)
+台股量化策略研究：金融資料分析與回測，找站得住腳的進出場訊號。
 
-### 🤖 [ML 100 Days](https://github.com/YuHsunWang/ML100day)
-機器學習百日練習紀錄，依「資料前處理 → 特徵工程 → 模型實作」逐步推進，建立可重用的分析習慣與 ML 基礎。
+### [MCMC Portfolio](https://github.com/YuHsunWang/mcmc-portfolio)
+貝氏 MCMC 偏好模型：用 Metropolis-Hastings 從瀏覽序列估計使用者的類別偏好、多樣性與轉換成本。
 
-### 📈 [Financial Engineering](https://github.com/YuHsunWang/Financial_Engineering)
-金融工程實作筆記，以 Python 重現 Black-Scholes 定價、Monte Carlo 模擬與風險指標計算，串起理論與程式實作。
+### [CVS Radar](https://github.com/YuHsunWang/cvs-radar)
+超商食物評價雷達：爬 PTT CVS 板做情感分析＋可信度加權，幫每個商品算出公正分數與評價共識。
 
-### 📊 [Data Science & ML Bootcamp](https://github.com/YuHsunWang/Refactored_Py_DS_ML_Bootcamp-master)
-以真實資料集進行端到端的資料科學練習，涵蓋迴歸、分類、NLP 與神經網路等主題。
+### [TOEIC Master](https://github.com/YuHsunWang/toeic-master) · [Live](https://toeic-master-murex.vercel.app)
+為了自己準備 TOEIC 做的練習 App，JavaScript 寫的、丟 Vercel 上線。
 
-### 🌐 [TOEIC Master](https://github.com/YuHsunWang/toeic-master) · **[Live →](https://toeic-master-murex.vercel.app)**
-為自己的 TOEIC 準備需求打造的練習 App，以 JavaScript 開發並部署於 Vercel，從需求到上線一手完成。
-
-
----
-
-## 📬 Contact
-
-[![Email](https://img.shields.io/badge/Email-ddtbcf5845%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ddtbcf5845@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shane_Wang-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yu-hsun-wang-231734184/?locale=zh)
+### [Financial Engineering](https://github.com/YuHsunWang/Financial_Engineering)
+金融工程筆記：用 Python 重現 Black-Scholes 定價、Monte Carlo 模擬跟風險指標。
