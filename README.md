@@ -1,9 +1,3 @@
-# Hi, I'm Shane
-
-台大經濟所畢業，現在在全家做資料分析師，大部分時間是把零售端的問題拆成能算的數字。下班後自己做台股量化研究，玩因子模型、事件研究、投組回測那些，偶爾也寫點資料或 AI 的 side project。
-
----
-
 ## Knowledge Base & AI Workflow
 
 我把研究、筆記跟寫程式湊成一套自己的流程：筆記丟 Obsidian，整理好的用 MkDocs 發成公開知識庫，再讓 Hermes Agent 接 Claude Code、Codex 幫忙檢索、改寫跟維護；研究專案用 beads 管理任務與記憶。
