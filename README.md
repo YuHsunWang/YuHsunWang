@@ -8,6 +8,25 @@
 
 ---
 
+## Notes & Research Topics
+
+目前把學習筆記、研究主題與實作專案整理成公開知識庫，方便持續累積與回顧。
+
+**Knowledge Base Notes**
+
+- AI Engineering 筆記：RAG、Agent、MCP、Prompt Engineering、LLM Evaluation
+- Trading Research：台股量化策略、回測、風險指標與市場觀察
+- Machine Learning：建模流程、統計推論與資料分析練習
+- Industry Research：被動元件與其他產業研究筆記
+
+**Current Project Focus**
+
+- 金融資料分析、回測與策略研究
+- 機器學習建模與資料視覺化
+- 把筆記、研究與程式專案整理成可維護的知識庫
+
+---
+
 ## Tech Stack
 
 **分析 & 建模**
@@ -47,7 +66,7 @@
 超商食物評價雷達：爬 PTT CVS 板做情感分析＋可信度加權，幫每個商品算出公正分數與評價共識。
 
 ### [TOEIC Master](https://github.com/YuHsunWang/toeic-master) · [Live](https://toeic-master-murex.vercel.app)
-為了自己準備 TOEIC 做的練習 App，JavaScript 寫的、丟 Vercel 上線。
+為了自己準備 TOEIC 做的練習 App；使用 React + Vite 建置前端，支援 PWA 體驗，並整合 Gemini API 產生練習與學習回饋。
 
 ### [Financial Engineering](https://github.com/YuHsunWang/Financial_Engineering)
 金融工程筆記：用 Python 重現 Black-Scholes 定價、Monte Carlo 模擬跟風險指標。
