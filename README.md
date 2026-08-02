@@ -57,8 +57,8 @@ I maintain a public knowledge base for research notes, side projects, and learni
 
 ## Projects
 
-### [Trading Strategy](https://github.com/YuHsunWang/trading_strategy)
-Taiwan equity strategy research with financial data analysis, backtesting, and trading signal evaluation.
+### [Trading Strategy Research](https://yuhsunwang.github.io/knowledge-base-pages/trading/)
+Taiwan equity strategy research with financial data analysis, backtesting, and trading signal evaluation. The code is private; the research notes, backtests, and results are published in the knowledge base.
 
 ### [MCMC Portfolio](https://github.com/YuHsunWang/mcmc-portfolio)
 Bayesian MCMC preference model using Metropolis-Hastings to estimate browsing preferences, diversity preference, and switching costs.
