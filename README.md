@@ -76,5 +76,5 @@ Financial engineering notes and Python implementations for Black-Scholes pricing
 
 ## Contact
 
-[![Email](https://img.shields.io/badge/Email-ddtbcf5845%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ddtbcf5845@gmail.com)
+[![Email](https://img.shields.io/badge/Email-hoody0730%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hoody0730@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shane_Wang-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yu-hsun-wang-231734184/?locale=zh)
