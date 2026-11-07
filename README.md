@@ -63,8 +63,17 @@ Taiwan equity strategy research with financial data analysis, backtesting, and t
 ### [MCMC Portfolio](https://github.com/YuHsunWang/mcmc-portfolio)
 Bayesian MCMC preference model using Metropolis-Hastings to estimate browsing preferences, diversity preference, and switching costs.
 
-### [CVS Radar](https://github.com/YuHsunWang/cvs-radar)
+### [CVS Radar](https://github.com/YuHsunWang/cvs-radar) · [Live](https://cvs-radar.vercel.app/)
 Convenience store food review analysis using PTT CVS posts, sentiment scoring, credibility weighting, and product ranking.
+
+### [Taiwanese Mahjong EV Trainer](https://github.com/YuHsunWang/gto_mahjong)
+A 16-tile Taiwanese mahjong trainer that grades discards with shanten, Monte Carlo rollouts, deal-in danger and tai scoring, and reports when it cannot tell two choices apart. FastAPI web UI and CLI.
+
+### [SQL Workbench](https://github.com/YuHsunWang/sql-workbench)
+Paste AI-written SQL and see how it computes, step by step: each step previews on sample data, and the steps generate MySQL, PostgreSQL, SQL Server or Oracle SQL.
+
+### [Project Inventory](https://github.com/YuHsunWang/project-inventory) · [Demo](https://yuhsunwang.github.io/project-inventory/)
+A Claude Code skill that takes stock of all your projects (GitHub, git, Linear, Notion, Obsidian, data freshness) and builds one dashboard page.
 
 ### [TOEIC Master](https://github.com/YuHsunWang/toeic-master) · [Live](https://toeic-master-murex.vercel.app)
 A TOEIC practice PWA built with React, Vite, and Gemini API for exercise generation and learning feedback.
