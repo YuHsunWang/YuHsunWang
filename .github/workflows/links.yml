@@ -1,5 +1,4 @@
-# Check the links in the Markdown files a PR adds or changes, so text-only PRs get a real green/red check.
-# docs/ is left to the MkDocs strict build where a repo has one.
+# Check the links in the Markdown files a PR adds, changes or moves, so text-only PRs get a real green/red check.
 name: links
 
 on:
@@ -29,8 +28,8 @@ jobs:
         # ponytail: links to the owner's private repos are skipped (the check runs logged out and would see 404);
         # add a repo here when it turns private, or pass a token with read access to all of them.
         run: |
-          git diff -z --name-only --diff-filter=AM "origin/$BASE...HEAD" -- '*.md' ':!docs/**' > changed
-          if [ ! -s changed ]; then echo "No Markdown files changed outside docs/."; exit 0; fi
+          git diff -z --name-only --diff-filter=AMR "origin/$BASE...HEAD" -- '*.md' > changed   # R: a moved note can break its relative links
+          if [ ! -s changed ]; then echo "No Markdown files changed."; exit 0; fi
           xargs -0 ./lychee-x86_64-unknown-linux-gnu/lychee --no-progress --max-retries 3 \
             --accept '200..=299,429,999' \
             --exclude '^https://github\.com/YuHsunWang/(Downloads|Family_mart|agents-institution|code|disposition-stock-study|kb-index|knowledge-base|my-slide|project_dashboard|research|sql-workbench-archive|trading_strategy)([/#?]|$)' \
