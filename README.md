@@ -53,6 +53,17 @@ I maintain a public knowledge base for research notes, side projects, and learni
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
+**Profile Banner**
+
+Light and dark SVG banners are included in `assets/banner-light.svg` and `assets/banner-dark.svg`. To regenerate them, run from the repository root:
+
+```sh
+pip install fonttools
+python3 tools/make_banner.py
+```
+
+The generator downloads and caches fonts on first use, then renders text as SVG paths. Edit `LIGHT`, `DARK`, and `TAGS` in `tools/make_banner.py` to restyle the banners.
+
 ---
 
 ## Projects
